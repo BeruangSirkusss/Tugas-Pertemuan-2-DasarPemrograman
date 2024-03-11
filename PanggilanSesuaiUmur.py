@@ -3,16 +3,16 @@ umur = int(input(" Masukan Umur :"))
 if umur <= 2 :
     panggilan = "Bayi"
 
-elif umur >2 ^ umur <=5 :
+elif umur >2 and umur <=5 :
     panggilan = "Balita"
     
-elif umur >=5 ^ umur <=12 :
+elif umur >=5 and umur <=12 :
     panggilan = "Anak-anak"
     
-elif umur >=12 ^ umur <=17 :
+elif umur >=12 and umur <=17 :
     panggilan = "Remaja"
     
-elif umur >=17 ^ umur <=30 :
+elif umur >=17 and umur <=30 :
     panggilan = "Dewasa"
     
 elif umur >30 :
